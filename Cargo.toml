@@ -10,7 +10,7 @@ keywords = ["proc-macro", "macro", "pattern", "design", "designpatterns", "util"
 categories = ["development-tools::procedural-macro"]
 
 [dependencies]
-patternutils-derive = "0.1.0"
+patternutils-derive = { version = "0.1.0", path = "./patternutils-derive"}
 
 [workspace]
 members = [".", "patternutils-derive"]
