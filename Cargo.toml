@@ -7,7 +7,7 @@ description = "Tiny utility library for some common design patterns."
 license = "MIT"
 repository = "https://github.com/TannYuld/patternutils/tree/master"
 keywords = ["proc-macro", "macro", "pattern", "design", "utility"]
-categories = ["development-tools::procedural-macro"]
+categories = ["data-structures", "development-tools"]
 
 [dependencies]
 patternutils-derive = { version = "0.1.0", path = "./patternutils-derive"}
