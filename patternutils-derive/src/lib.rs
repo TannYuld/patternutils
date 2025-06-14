@@ -1,6 +1,5 @@
 use proc_macro::TokenStream;
 use syn::{
-    parenthesized,
     parse::{Parse, ParseStream, Result},
     parse_macro_input,
     punctuated::Punctuated,
