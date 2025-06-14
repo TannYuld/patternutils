@@ -2,6 +2,7 @@
 name = "patternutils-derive"
 version = "0.1.0"
 edition = "2021"
+description = "Derive macros & attribute macros for patternutils"
 
 [dependencies]
 quote = "1.0.40"

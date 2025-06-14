@@ -9,5 +9,8 @@ repository = "https://github.com/TannYuld/patternutils/tree/master"
 keywords = ["proc-macro", "macro", "pattern", "design", "designpatterns", "util", "utility"]
 categories = ["development-tools::procedural-macro"]
 
+[dependencies]
+patternutils-derive = "0.1.0"
+
 [workspace]
 members = [".", "patternutils-derive"]
