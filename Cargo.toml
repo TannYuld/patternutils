@@ -1,0 +1,17 @@
+[package]
+name = "patternutils"
+version = "0.1.0"
+edition = "2021"
+authors = ["Onur Altintas <onuraltintas2005@gmail.com>"]
+description = "Tiny utility lib for some common design patterns."
+license = "MIT"
+repository = "https://github.com/yourusername/yourrepo"
+documentation = "https://docs.rs/your_crate_name"
+keywords = ["proc-macro", "macro", "pattern", "design", "designpatterns", "util", "utility"]
+categories = ["development-tools::procedural-macro"]
+
+[dependencies]
+patternutils-derive = {path = "patternutils-derive"}
+
+[workspace]
+members = [".", "patternutils-derive"]
