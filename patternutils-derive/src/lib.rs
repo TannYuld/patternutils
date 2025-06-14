@@ -9,8 +9,7 @@ use syn::{
 
 #[derive(Debug, Default)]
 struct ObserverArgs {
-    publisher_name: Option<String>,
-    // second_attr: Option<String>,
+    publisher_name: Option<String>
 }
 
 impl Parse for ObserverArgs {
