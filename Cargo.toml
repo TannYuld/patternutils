@@ -6,7 +6,7 @@ authors = ["Onur Altintas <onuraltintas2005@gmail.com>"]
 description = "Tiny utility library for some common design patterns."
 license = "MIT"
 repository = "https://github.com/TannYuld/patternutils/tree/master"
-keywords = ["proc-macro", "macro", "pattern", "design", "designpatterns", "util", "utility"]
+keywords = ["proc-macro", "macro", "pattern", "design", "utility"]
 categories = ["development-tools::procedural-macro"]
 
 [dependencies]
