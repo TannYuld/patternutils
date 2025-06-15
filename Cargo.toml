@@ -11,7 +11,7 @@ categories = ["data-structures", "development-tools"]
 readme = "README.md"
 
 [dependencies]
-patternutils-derive = { version = "0.1.0", path = "./patternutils-derive"}
+patternutils-derive = { version = "*", path = "./patternutils-derive"}
 
 [workspace]
 members = [".", "patternutils-derive"]
