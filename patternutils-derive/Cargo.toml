@@ -1,6 +1,6 @@
 [package]
 name = "patternutils-derive"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Onur Altintas <onuraltintas2005@gmail.com>"]
 description = "Derive macros & attribute macros for patternutils"
@@ -8,6 +8,7 @@ license = "MIT"
 repository = "https://github.com/TannYuld/patternutils/tree/master"
 keywords = ["proc-macro", "macro", "pattern", "design", "utility"]
 categories = ["data-structures", "development-tools"]
+readme = "README.md"
 
 
 [dependencies]
