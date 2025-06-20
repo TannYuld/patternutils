@@ -346,7 +346,7 @@ pub fn builder_derive_macro(item: TokenStream) -> TokenStream {
                             #included_original_field_names: self.#included_field_names.clone(),
                         )*
                         #(
-                            #excluded_original_field_names: #excluded_field_names.clone(),
+                            #excluded_original_field_names: #excluded_field_names,
                         )*
                     }
                 }
